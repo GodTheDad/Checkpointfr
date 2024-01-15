@@ -1,0 +1,18 @@
+.fontlink{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.Logo{
+    display: grid;
+    place-items: center;
+}
+
+.Logo h1{
+    color: aliceblue;
+    margin-top: 0px;
+}
+
+.Logo img{
+    width: 200px;
+    height: 200px;
+}

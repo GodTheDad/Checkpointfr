@@ -1,0 +1,11 @@
+.DivCentre{
+    width: 99vw;
+    height: 95vh;
+    display: grid;
+    place-items: center;
+}
+
+.DivHoriz{
+    display: flex;
+    justify-content: center;
+}

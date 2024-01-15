@@ -1,0 +1,73 @@
+.fontlink{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+.Bigger {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px;
+}
+.ACard {
+    position: relative;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 2px;
+}
+.ACard img{
+    width: 100px;
+    height: 100px;
+    filter: blur(1.2px);
+    border-radius: 10px;
+    opacity: 0.5;
+    /* -webkit-filter: blur(1.2px); */
+}
+
+.ACard h3{
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    margin: 0px;
+
+}
+
+.ACard :hover {
+    filter: blur(0px);
+    opacity: 0.8;
+
+} 
+.Bigger img{
+    width: 300px;
+    height: 300px;
+    filter: blur(1.2px);
+    border-radius: 10px;
+    opacity: 0.5;
+    /* -webkit-filter: blur(1.2px); */
+}
+
+.Bigger h3{
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    margin: 0px;
+
+}
+
+.Bigger :hover {
+    filter: blur(0px);
+    opacity: 0.8;
+
+} 
+
+

@@ -1,0 +1,4 @@
+.biggerDiv{
+    display: grid;
+    place-items: center;
+}

@@ -1,0 +1,25 @@
+.BgImg{
+    width: 100vw;
+    height: 99.3vh;
+    filter: blur(1.2px);
+
+    opacity: 0.5;
+}
+
+.Veiw{
+    width: 100vw;
+    height: 98vh;
+    position: relative;
+}
+
+.DivCentre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    margin: 0px;
+}
+.DivHoriz{
+    display: flex;
+    justify-content: center;
+}
