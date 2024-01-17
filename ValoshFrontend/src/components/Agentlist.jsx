@@ -8,7 +8,7 @@ const Agents  = () => {
 
   const fetchAgents = () => {
     
-    return fetch("http://localhost:5000/agents")
+    return fetch("/agents")
           .then((response) => response.json())
           .then((data) => setAgents(data));
   }
