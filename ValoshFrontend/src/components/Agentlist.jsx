@@ -8,7 +8,7 @@ const Agents  = () => {
 
   const fetchAgents = () => {
     
-    return fetch("/agents")
+    return fetch("https://bananapeel-e9dm.onrender.com/agents")
           .then((response) => response.json())
           .then((data) => setAgents(data));
   }
