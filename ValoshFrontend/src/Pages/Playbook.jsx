@@ -12,9 +12,9 @@ const Playbook = () => {
 
     const [agents, setAgents] = useState([]);
 
-    async const fetchAgents = () => {
+    const fetchAgents = () => {
       
-       await return fetch(`http://localhost:5000/${agentVal}/map/${mapVal}/image`)
+       return fetch(`http://localhost:5000/${agentVal}/map/${mapVal}/image`)
             .then((response) => response.json())
             
             .then((data) => setAgents(data));
